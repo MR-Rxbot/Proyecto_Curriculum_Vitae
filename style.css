@@ -1,0 +1,70 @@
+/*Diseño para pagina de inicio*/
+
+/*Se aplicara este estilo a todo lo que se encuentre
+en nuestro pagina html*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Estilo que generara un degrada de distintos colores*/
+/*Se añadira un tamaño de nuestro fondo al 500% para lograr un mejor ejemplo*/
+/*se Creo un keyframe para dotar a la propiedad de animation de 
+un movimiento bien sencillo al visitar la pagina web
+*/
+body{
+    background-image: linear-gradient(100deg
+    ,#0087d4, #505488, #2f3f80, #161569,
+    #5a4894, #a950a1,#ff7CAE);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+}
+
+/*El menu solo tendra un padding de 300px para que quede centrado*/
+.menu{
+width: 100%;   
+}
+
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.texto{
+    color:white;
+    font-size: 24px;
+}
+/* se dara a nuestra etiqueta a un color blanco*/
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link :visited{
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #a8dcfa;
+    transition: 1s;
+}
+.link:active{
+    color: #2f3f80;
+}
+
+@keyframes fanimado {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }100%{
+        background-position: 0% 50%;
+    }
+} 

@@ -1,0 +1,134 @@
+body{   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(198, 215, 216);
+    font-family: Playfair Display;
+}
+
+#formato{
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#left{
+    border-radius: 30px;
+    width: 30%;
+    background: linear-gradient(160deg, #5a788a 0%, #667271 100%);
+
+}
+
+#container-img{
+    width: 100%;
+}
+
+#fotoperfil{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nombreApellido{
+    color: white;
+    text-align: center;
+}
+
+#right{
+    width: 60%;
+}
+
+.titulo-right{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#nombreApellido{
+    width: 80%;
+    font-size: 16px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    height: 4px;
+    width: 80%;
+    background-color: white;
+}
+#puestobuscado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#perfil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.descripcion{
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;    
+}
+
+
+#list{
+    width: 100%;
+}
+
+.titulo-left{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.lista-left{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+ul li a{
+    color: white;
+}
+
+ul li .linkedin:hover{
+    color: rgb(1, 1, 172);
+}
+
+ul li .github:hover{
+    color: rgb(100, 189, 196);
+}
+
+ul li .gmail:hover{
+    color: rgb(207, 188, 11);
+}
+
+
