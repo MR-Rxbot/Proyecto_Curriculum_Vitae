@@ -17,9 +17,11 @@ body{
     display: flex;
 }
 
+/*Parte izquierda del documento*/
 #left{
-    border-radius: 30px;
-    width: 30%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 40%;
     background: linear-gradient(160deg, #5a788a 0%, #667271 100%);
 
 }
@@ -43,15 +45,6 @@ body{
     text-align: center;
 }
 
-#right{
-    width: 60%;
-}
-
-.titulo-right{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
 
 #nombreApellido{
     width: 80%;
@@ -78,6 +71,7 @@ hr{
     display: flex;
     justify-content: center;
 }
+
 
 #perfil{
     width: 100%;
@@ -116,7 +110,12 @@ hr{
 }
 
 ul li a{
+    text-decoration: none;
     color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
 }
 
 ul li .linkedin:hover{
@@ -132,3 +131,85 @@ ul li .gmail:hover{
 }
 
 
+/*Finaliza la parte izquierda del documento*/
+
+
+
+/*Parte derecha del documento*/
+
+#right{
+    width: 100%;
+}
+
+.titulo-right{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#experiencias-lab{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}  
+
+#experiencias-lab h3 {
+    font-size: 24px;
+    margin-bottom: -3px;
+}
+
+#experiencias-lab p{
+    font-size: 20px;
+}
+
+.container-list{
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista-tareas {
+    list-style-type: georgian;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.box-texto{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.idioma{
+    font-size: 20px;
+    justify-content: flex-start;
+    font-weight: 500;
+}
+
+.box-edu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.edu{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*Finaliza la parte derecha del documento*/
+
+
+/*Desde esta seccion empezaran las mediaQuery*/
